@@ -1,0 +1,20 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Simple Task Management App (Angular + Express.js + MongoDB)",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "angular",
+    "express",
+    "mongodb",
+    "task-management"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

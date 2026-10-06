@@ -1,0 +1,64 @@
+# ==========================================
+# Task Management Project - Root .gitignore
+# ==========================================
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Production & Build Outputs
+dist/
+*/dist/
+out-tsc/
+tmp/
+temp/
+coverage/
+
+# Angular
+.angular/
+*/.angular/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database & Storage
+*.sqlite
+*.sqlite3
+mongo-data/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
